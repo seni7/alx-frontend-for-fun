@@ -111,20 +111,7 @@ from random import random, randint
 import codecs
 from collections import defaultdict
 guillaume@vagrant:~/$ cat README.md
-# My title
-## My title2
-# My title3
-#### My title4
-### My title5
 
-guillaume@vagrant:~/$ ./markdown2html.py README.md README.html 
-guillaume@vagrant:~/$ cat README.html 
-<h1>My title</h1>
-<h2>My title2</h2>
-<h1>My title3</h1>
-<h4>My title4</h4>
-<h3>My title5</h3>
-guillaume@vagrant:~/$ 
 # ---- globals
 
 DEBUG = False
